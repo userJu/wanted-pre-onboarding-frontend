@@ -13,12 +13,14 @@ const Form = () => {
     inputId: "email",
     labelName: "email",
     placeholder: "이메일을 입력해주세요",
+    value: "",
     handleChange: handleEmailChange,
   };
   const passwordInputProps = {
     inputId: "password",
     labelName: "password",
     placeholder: "비밀번호를 입력해주세요",
+    value: "",
     handleChange: handlePasswordChange,
   };
 
