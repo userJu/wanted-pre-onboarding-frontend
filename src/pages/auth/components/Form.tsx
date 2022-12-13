@@ -2,10 +2,10 @@ import React from "react";
 import Input from "../../../components/Input";
 
 const Form = () => {
-  const handleEmailChange = (e: React.FormEvent<HTMLInputElement>) => {
+  const handleEmailChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     console.log(e);
   };
-  const handlePasswordChange = (e: React.FormEvent<HTMLInputElement>) => {
+  const handlePasswordChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     console.log(e);
   };
 
