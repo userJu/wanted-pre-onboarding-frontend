@@ -4,7 +4,7 @@ interface inputProps {
   inputId: string;
   labelName: string;
   placeholder: string;
-  handleChange: (e: React.FormEvent<HTMLInputElement>) => void;
+  handleChange: (e: React.ChangeEvent<HTMLInputElement>) => void;
 }
 
 const Input = ({
