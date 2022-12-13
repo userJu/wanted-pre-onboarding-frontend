@@ -4,6 +4,7 @@ interface inputProps {
   inputId: string;
   labelName: string;
   placeholder: string;
+  value: string;
   handleChange: (e: React.ChangeEvent<HTMLInputElement>) => void;
 }
 
@@ -11,6 +12,7 @@ const Input = ({
   inputId,
   labelName,
   placeholder,
+  value,
   handleChange,
 }: inputProps) => {
   return (
@@ -20,6 +22,7 @@ const Input = ({
         type="text"
         id={inputId}
         placeholder={placeholder}
+        value={value}
         onChange={handleChange}
       />
     </div>
